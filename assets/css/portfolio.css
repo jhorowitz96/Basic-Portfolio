@@ -17,7 +17,7 @@ header {
     border-top-color: black;
     border-bottom: .3em;
     border-bottom-style: solid;
-    border-bottom-color: #cccccc
+    border-bottom-color: #cccccc;
     
 
 }
@@ -26,7 +26,7 @@ header {
     padding:0;
     display:table;
     color:gray;
-    float: right
+    float: right;
 }
 
 ul {
@@ -36,7 +36,7 @@ ul {
 ul li {
     display: inline;
     margin-left: 40px;
-    color: gray
+    color: gray;
 }
 a {
     text-decoration: none;
@@ -51,7 +51,7 @@ a {
     text-align: center;
     background-color: teal;
     color: white;
-    margin-top: .7em;
+    margin top: 1em;
     margin-bottom: 1em;
     margin-left:2.2em;
     width: 24%;
@@ -62,46 +62,110 @@ a {
     
 }
 
+
 .wrapper {
     background-color: white;
     position: relative;
     align-content: left;
-    height: 200px;
+    height: 600px;
     width: 960px;
     text-align: left;
     margin: 4em;
-    padding: 1em 2em 7em 2em;
+    padding: 1em 2em 5em 2em;
+    overflow: hidden;
     
     }
 
 h2 {
         color: teal;
+        margin-left:.8em;
         border-bottom:2px solid #cccccc;
-        width: 100% 
+        width: 100%;
 
 }
   
-#name {
-    width:50%;
+.motorx {
+    float: left;
+    padding: 20px;
+    position: relative;
+}
+
+#motorcyle {
+    position: absolute;
+    top: 6em;
+    background-color: teal;
+    color:white;
+    text-align: center;
+    width: 83.5%;
+
     
 }
 
-#email {
-    width: 50%;
+.philadelphia {
+    float: left;
+    padding: 20px;
+    position:relative;
+    
 }
 
-#message {
-    width: 50%;
-    height: 50px;
-    margin-bottom: 2em
-}
-
-#submit {
+#philly {
+    position: absolute;
+    background-color: teal;
     color:white;
-    background-color: teal
-
+    text-align: center;
+    width: 83.5%;
+    top:6em;
+    
+    
 }
 
+.pizza {
+    position: relative;
+    width: 50%;
+    clear: both;
+    overflow: auto;
+    padding: 20px;
+    
+    
+}
+
+#pizza2 {
+    position: absolute;
+    background-color: teal;
+    color:white;
+    text-align: center;
+    width: 38.5%;
+    top:6.8em;
+}
+
+.carson {
+    position:relative;
+    float: left;
+    padding: 20px;
+}
+
+#wentz {
+    position: absolute;
+    background-color: teal;
+    color:white;
+    text-align: center;
+    width: 83.5%;
+    top:6em;
+}
+
+.headphones {
+    position:relative;
+    float: left;
+}
+
+#headphones2 {
+    position: absolute;
+    background-color: teal;
+    color:white;
+    text-align: center;
+    width: 100%;
+    top:4.7em;
+}
 
 .footer{
     padding: 4.5em;
@@ -110,7 +174,6 @@ h2 {
     border-top-style: solid;
     border-top-color:teal;
     width: 100%;
-    height: 4px;
+    height: 30px;
 
-    
 }
